@@ -17,8 +17,7 @@ class App extends Component {
         style={{ height: "1500px", background: "cornflowerblue" }}
       >
         <Header />
-        <Featured />
-        <VenueInfo />
+
         <Element name="featured">
           <Featured />
         </Element>

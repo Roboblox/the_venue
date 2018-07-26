@@ -9,7 +9,6 @@ const Location = () => {
         width="100%"
         height="500px"
         frameBorder="0"
-        allowFullscreen
       />
       <div className="location_tag">Location</div>
     </div>

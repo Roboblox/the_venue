@@ -25,7 +25,7 @@ const SideDrawer = props => {
           Event Starts In
         </ListItem>
         <ListItem button onClick={() => scrollToElement("venueinfo")}>
-          Venue NFO
+          Venue Info
         </ListItem>
         <ListItem button onClick={() => scrollToElement("highlights")}>
           Highlights
