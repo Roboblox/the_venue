@@ -7,6 +7,7 @@ import Highlight from "./components/highlights";
 import Pricing from "./components/pricing";
 import Location from "./components/location";
 import Footer from "./components/header_footer/Footer";
+import { Element } from "react-scroll";
 
 class App extends Component {
   render() {
@@ -18,7 +19,22 @@ class App extends Component {
         <Header />
         <Featured />
         <VenueInfo />
-        <Highlight />
+        <Element name="featured">
+          <Featured />
+        </Element>
+        <Element name="venueinfo">
+          <VenueInfo />
+        </Element>
+        <Element name="highlights">
+          <Highlight />
+        </Element>
+        <Element name="pricing">
+          <Pricing />
+        </Element>
+        <Element name="location">
+          <Location />
+        </Element>
+
         <Pricing />
         <Location />
         <Footer />
